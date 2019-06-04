@@ -10,6 +10,10 @@ body{
   color: #7979d2;
   top: 0;
   transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   opacity: 1;
 }
 #menu ul {
@@ -26,6 +30,10 @@ body{
   text-decoration: none;
   text-align: left;
   transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   font-weight: 600;
 }
 #menu ul a i {
@@ -55,7 +63,16 @@ body{
   font-size: 1.3em;
   color: #7979d2;
   transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 .mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer;
+-ms-cursor:pointer;
+-moz-cursor:pointer;
+-webkit-cursor:pointer;
+-o-cursor:pointer;}
 .w3-badge {height:13px;width:13px;padding:0}
