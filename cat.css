@@ -1,0 +1,76 @@
+#cat1, #cat2, #cat3, #cat4, #cat5, #cat6, #cat7, #cat8, #cat9, #cat10{
+       height: 150px;
+    font-size : 40px;
+    font-family : "휴먼옛체";
+    display: inline-block;
+    float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+cursor: pointer;
+padding-top: 100px;
+color: white;
+border-collapse: collapse;
+border:1px solid black;
+}
+#cat1{
+  background-image: url(러시안블루1.jpg);
+}
+#cat1:hover{
+background-image: url(러시안블루2.jpg);
+}
+#cat2{
+  background-image: url(먼치킨1.jpg);
+}
+#cat2:hover{
+  background-image: url(먼치킨2.jpg);
+}
+#cat3{
+  background-image: url(뱅갈1.jpg);
+}
+#cat3:hover{
+  background-image: url(뱅갈2.jpg);
+}
+#cat4{
+  background-image: url(스핑크스1.jpg);
+}
+#cat4:hover{
+  background-image: url(스핑크스2.jpg);
+}
+#cat5{
+  background-image: url(아메리칸숏헤어1.jpg);
+}
+#cat5:hover{
+  background-image: url(아메리칸숏헤어2.jpg);
+}
+#cat6{
+  background-image: url(노르웨이숲1.jpg);
+}
+#cat6:hover{
+  background-image: url(노르웨이숲2.jpg);
+}
+#cat7{
+  background-image: url(터키쉬앙고라1.jpg);
+}
+#cat7:hover{
+  background-image: url(터키쉬앙고라2.jpg);
+}
+#cat8{
+  background-image: url(샴1.jpg);
+}
+#cat8:hover{
+  background-image: url(샴2.jpg);
+}
+#cat9{
+  background-image: url(페르시안1.jpg);
+}
+#cat9:hover{
+  background-image: url(페르시안2.jpg);
+}
+#cat10{
+  background-image: url(메인쿤1.jpg);
+}
+#cat10:hover{
+  background-image: url(메인쿤2.jpg);
+}

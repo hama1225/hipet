@@ -1,0 +1,60 @@
+header{
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    margin: 0px;
+      }
+      .col-12{
+        width: 700px;
+        margin: auto;
+      }
+      hr{
+        margin:0px;
+        border-top:1px solid black;
+        margin-block-start: 0px;
+            margin-block-end: 0px;
+      }
+      a{
+        margin: 0px;
+        text-decoration: none; 
+    text-align: center;
+    font-size : 50px;
+    font-family : "휴먼옛체";
+    font-weight: 500;
+    color: black;
+      }
+      a:hover{
+        color:red;
+      }
+      a:actived{
+        color:black;
+      }
+  .menu {
+      position:fixed;
+      top: 10px;
+      right: 18px;
+  }
+[class*="col-"]{
+    width: 100%;
+  }
+  @media only screen and (min-width:700px){
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 233px;
+        display: inline-block;
+    float: left;}
+    .col-m-6{width: 50%;}
+    .col-m-8{width:466px;
+        display: inline-block;
+    float: left;}
+    .col-m-12{ width: 700px;}
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tr{
+    height: 30px;
+  }
+  th{
+    width: 20%;
+  }

@@ -1,0 +1,128 @@
+ *{
+      margin: 0px;
+    }
+    
+    body{
+      background-color: #ffb3d4;
+    }
+      header{
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+      }
+
+      a{
+    text-decoration: none; 
+    text-align: center;
+    font-size : 50px;
+    font-family : "휴먼옛체";
+    font-weight: 500;
+    color: black;
+      }
+      a:hover{
+        color:red;
+      }
+      a:actived{
+        color:black;
+      }
+  .menu {
+      position:fixed;
+      top: 10px;
+      right: 18px;
+  }
+  
+  .col-12 {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    font-size : 50px;
+    font-family : "휴먼옛체";
+    font-weight: 500;
+    color: black;
+    background-size: cover;
+  }
+  
+  .col-6 {
+    height: 350px;
+    display: inline-block;
+    float: left;
+    font-size : 10px;
+    height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    }
+
+  [class*="col-"]{
+    width: 100%;
+  }
+  @media only screen and (min-width:700px){
+    .col-m-3{width: 25%;}
+    .col-m-4{width: 33%;}
+    .col-m-6{width: 50%;}
+    .col-m-12{ width: 700px; margin : auto;}
+  }
+
+  .text {
+  text-align: center;
+  position: absolute;
+  font-size: 2em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.img-wrapper {
+  width:49.5%;
+  cursor:pointer;
+  border-collapse: collapse;
+  border: 1px solid black;
+
+}
+
+.img-wrapper img {
+  box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+}
+
+.darkness {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#000000;
+  /* 추가된 부분 */
+  opacity:0;
+  transition:all .6s linear;
+}
+
+.btn-plus {
+  text-align:center;
+  position: relative;
+  top:50%;
+  /* 추가된 부분 */
+  opacity:0;
+  transform:scale(2);
+  transition:all .3s linear;
+}
+
+.btn-plus span {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+  font-size:2em;
+  color:#ffffff;
+  user-select:none;
+}
+
+/* 추가된 부분 */
+.img-wrapper:hover .darkness{
+  opacity:0.4;
+}
+
+/* 추가된 부분 */
+.img-wrapper:hover .btn-plus {
+  opacity:1;
+  transform:scale(1.5);
+}
